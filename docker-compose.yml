@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres 
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: diplomDB
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ./diplom
+      dockerfile: Dockerfile
+    ports:
+      - "10888:10888"
+    depends_on:
+      - db
+  
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+    - backend
+
+volumes:
+  postgres_data:
+
+

@@ -1,0 +1,89 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJta2ltYmExMzM3QGdtYWlsLmNvbSIsImV4cCI6MTcxOTQ3MDU4NH0.5TH2r0eUpyExxxJIqsmw3HqMCtO0BUMxd43PFSB9wBI - mk
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlZy5yZWRpbkB5YW5kZXgucnUiLCJleHAiOjE3MTk0NzA2MDN9.Tbbz7A14gnbxkgWto4_7fapeW2-kIGelXI953KoHljo - eg
+
+
+{"email": "eg.redin@yandex.ru", 
+"password": "0000", 
+"first_name":"Egor",  
+"second_name": "Redin",
+"photo": null}
+
+40{"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJta2ltYmExMzM3QGdtYWlsLmNvbSIsImV4cCI6MTcxOTA5OTkwNn0.oRpTjZ1g1nAxlFv6mNuG9wgnTSgqUNMb0h5gmee7538"}
+
+{"email": "mkimba1337@gmail.com", 
+"password": "1234", 
+"first_name":"John",  
+"second_name": "Doe",
+"photo": null}
+
+
+{
+    "email": "eg.redin@yandex.ru",
+    "first_name": "Egor",
+    "second_name": "Redin",
+    "photo": null,
+    "id": 2
+}
+
+
+{
+    "email": "mkimba1337@gmail.com",
+    "first_name": "John",
+    "second_name": "Doe",
+    "photo": null,
+    "id": 1,
+    "is_online": false,
+    "projects": [],
+    "tasks": []
+}
+
+Кайфовый ответ
+{
+    "email": "mkimba1337@gmail.com",
+    "first_name": "John",
+    "second_name": "Doe",
+    "photo": null,
+    "id": 1,
+    "is_online": false,
+    "projects": [
+        {
+            "id": 1,
+            "name": "krutoy project",
+            "color": "123",
+            "owner": {
+                "email": "mkimba1337@gmail.com",
+                "first_name": "John",
+                "second_name": "Doe",
+                "photo": null,
+                "id": 1
+            },
+            "tasks": [
+                {
+                    "assigned": [
+                        {
+                            "email": "mkimba1337@gmail.com",
+                            "first_name": "John",
+                            "second_name": "Doe",
+                            "photo": null
+                        },
+                        {
+                            "email": "eg.redin@yandex.ru",
+                            "first_name": "Egor",
+                            "second_name": "Redin",
+                            "photo": null
+                        }
+                    ],
+                    "time_start": "2024-06-17T01:14:14Z",
+                    "time_end": "2024-06-17T01:14:14Z",
+                    "description": "chto to",
+                    "name": "krutoy task",
+                    "id": 6,
+                    "comments": [],
+                    "status": "К исполнению"
+                }
+            ]
+        }
+    ],
+    "chats": []
+}
+
