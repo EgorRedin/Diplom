@@ -17,7 +17,7 @@ services:
       context: ./diplom
       dockerfile: Dockerfile
     ports:
-      - "10888:10888"
+      - "8000:8000"
     depends_on:
       - db
   
