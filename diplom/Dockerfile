@@ -12,4 +12,4 @@ EXPOSE 8000
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD python create_db.py && python main.py
+CMD python main.py
